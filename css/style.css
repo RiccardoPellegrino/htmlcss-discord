@@ -111,9 +111,13 @@ header p {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .marigine-bottone{
 
     margin: 10px;
+}
+main{
+    
+   text-align: center;
 }
