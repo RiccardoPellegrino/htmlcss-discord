@@ -31,7 +31,7 @@ footer {
     border-radius: 20px;
     padding: 10px 12px;
     text-decoration: none;
-   
+
 
 }
 
@@ -83,9 +83,10 @@ header p {
     text-align: center;
     padding: 5px;
     font-size: 22px;
-    
+
 }
-.spazio{
+
+.spazio {
     margin-top: 50px;
 }
 
@@ -111,7 +112,7 @@ header p {
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
-   
+
 
 }
 
@@ -177,11 +178,13 @@ p {
     padding-left: 150px;
 
 }
+
 .nonno {
     height: 700px;
     padding-top: 100px;
 
 }
+
 .nonno-2 {
     height: 700px;
     background-color: #F6F6F6;
@@ -207,7 +210,14 @@ p {
 .spaziatura {
     line-height: 30px;
     font-size: 20px;
+    
 }
+.spaziatura-2 {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 0px 200px;
+}
+
 
 .btn-viola {
     display: block;
@@ -296,3 +306,5 @@ footer {
     color: #F6F6F6;
     transform: rotate(180deg);
 }
+
+
