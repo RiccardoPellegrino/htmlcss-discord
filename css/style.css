@@ -331,3 +331,6 @@ footer {
     margin-bottom: 50px;
 }
 
+.underline:hover{
+    text-decoration: underline;
+}
