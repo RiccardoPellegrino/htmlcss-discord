@@ -80,9 +80,9 @@ header nav ul {
 }
 
 .hero {
-    background-image: url('../img/jumbo.png');
+    background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 600px;
+    height: 620px;
 
 }
 
@@ -272,11 +272,7 @@ p {
 
 }
 
-h4 {
-    color: #8EA1E1;
-}
-
-h3 {
+h4,h3 {
     color: #8EA1E1;
 }
 
