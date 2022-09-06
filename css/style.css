@@ -180,7 +180,7 @@ p {
 
 .nonno-2 {
     height: 700px;
-    background-color: beige;
+    background-color: #F6F6F6;
     padding-top: 100px;
     padding-right: 260px;
 }
@@ -193,7 +193,7 @@ p {
 }
 .nonno-4 {
     height: 1200px;
-    background-color: beige;
+    background-color: #F6F6F6;
     padding-top: 100px;
     text-align: center;
 
@@ -274,11 +274,6 @@ footer {
     justify-content: left;
 
 }
-.absolute{
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
 .lineh{
  font-size: 30px;
 }
@@ -288,4 +283,7 @@ footer {
 }.list-1{
 
     width: calc((100% /6) * 2);
+}
+.wave{
+    color: #F6F6F6;
 }
