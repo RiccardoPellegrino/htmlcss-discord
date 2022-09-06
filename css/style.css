@@ -204,7 +204,7 @@ footer {
     line-height:30px;
 }
 .nonno-4{
-    height: 900px;
+    height: 1100px;
     background-color: beige;
     padding-top: 100px;
     text-align: center;
@@ -213,5 +213,17 @@ footer {
 .spaziatura-2{
     padding: 0px 420px;
     padding-top: 30px;
+
+}
+.btn-viola {
+    display: block;
+    background-color:#8EA1E1;
+    border-radius: 25px;
+    padding: 8px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+
 
 }
