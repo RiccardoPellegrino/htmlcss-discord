@@ -27,10 +27,11 @@ footer {
 
 .btn {
     display: block;
-    background-color: beige;
+    background-color: white;
     border-radius: 20px;
     padding: 10px 12px;
     text-decoration: none;
+    color: #23272a;
 
 
 }
@@ -38,8 +39,11 @@ footer {
 ul {
     list-style-type: none;
     color: white;
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 20px;
+}
+header li{
+    padding-right: 20px;
 }
 
 .flex {
@@ -220,7 +224,6 @@ p {
 
 
 .btn-viola {
-    display: block;
     background-color: #8EA1E1;
     border-radius: 25px;
     padding: 8px 10px;
@@ -284,10 +287,6 @@ footer {
 
 }
 
-.lineh {
-    font-size: 30px;
-}
-
 .list {
 
     width: calc(100% /6);
@@ -306,5 +305,7 @@ footer {
     color: #F6F6F6;
     transform: rotate(180deg);
 }
+.paragrafo-stellina{
 
+}
 
