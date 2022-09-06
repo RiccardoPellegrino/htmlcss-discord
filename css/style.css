@@ -37,7 +37,7 @@ footer {
 ul {
     list-style-type: none;
     color: white;
-
+    padding-top: 20px;
 }
 
 .flex {
@@ -123,11 +123,11 @@ header p {
 
 main {
 
-    text-align: center; 
+    text-align: center;
 
 }
 
-.clearfix {
+.clearfix::after {
     clear: both;
     display: block;
     content: "";
@@ -150,10 +150,7 @@ main {
     padding-left: 150px;
 }
 
-h2 {
-    padding-top: 30px;
-    font-size: 50px;
-}
+
 
 .padre {
     width: 1400px;
@@ -188,42 +185,107 @@ p {
     padding-right: 260px;
 }
 
-footer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: left;
-
-}
 .nonno-3 {
     height: 700px;
     background-color: white;
     padding-top: 100px;
-    
+
 }
-.spaziatura{
-    line-height:30px;
-}
-.nonno-4{
-    height: 1100px;
+.nonno-4 {
+    height: 1200px;
     background-color: beige;
     padding-top: 100px;
     text-align: center;
-    
+
 }
-.spaziatura-2{
+
+.spaziatura {
+    line-height: 30px;
+}
+
+.spaziatura-2 {
     padding: 0px 420px;
     padding-top: 30px;
 
 }
+
 .btn-viola {
     display: block;
-    background-color:#8EA1E1;
+    background-color: #8EA1E1;
     border-radius: 25px;
     padding: 8px 10px;
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
+    align-self: flex-start;
 
 
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    border-bottom: 2px solid #8EA1E1;
+    ;
+    padding-bottom: 30px;
+}
+
+.flexcontainer-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 240px;
+
+}
+
+h4 {
+    color: #8EA1E1;
+}
+
+h3 {
+    color: #8EA1E1;
+}
+
+h2 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+a {
+   text-decoration: none; 
+    padding-top: 30px;
+}
+
+.bianco {
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.lineh{
+ font-size: 30px;
+}
+.list{
+
+    width: calc(100% /6);
+}.list-1{
+
+    width: calc((100% /6) * 2);
 }
