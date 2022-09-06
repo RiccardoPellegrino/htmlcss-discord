@@ -12,6 +12,7 @@
 
 header {
     background-color: #255EE9;
+
 }
 
 footer {
@@ -57,6 +58,7 @@ header nav ul {
 
 .cursore {
     cursor: pointer;
+
 }
 
 .hero {
@@ -84,27 +86,28 @@ header p {
 
 .btn-nero {
     display: block;
-    background-color:#23272a ;
+    background-color: #23272a;
     border-radius: 25px;
     padding: 10px 12px;
     color: white;
     text-decoration: none;
     font-size: 20px;
-    padding: 15px ;
-   
-    
+    padding: 15px;
+
+
 }
+
 .btn-bianco {
     display: block;
-    background-color:white ;
+    background-color: white;
     border-radius: 25px;
     padding: 10px 12px;
     color: #23272a;
     text-decoration: none;
     font-size: 20px;
-    padding: 15px ;
-    
-    
+    padding: 15px;
+
+
 }
 
 .flex-center {
@@ -113,17 +116,102 @@ header p {
     justify-content: center;
     margin-top: 30px;
 }
-.marigine-bottone{
+
+.marigine-bottone {
     margin: 10px;
 }
-main{
 
-   text-align: center;
-   padding-top: 100px;
-   float: left;
+main {
+
+    text-align: center; 
+
 }
-.clearfix{
+
+.clearfix {
     clear: both;
     display: block;
     content: "";
+}
+
+.float-left {
+    float: left;
+
+}
+
+.float-right {
+    float: right;
+
+}
+
+.centrato-sinistra {
+    width: 520px;
+    height: 200px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+h2 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.padre {
+    width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+.nonno {
+    height: 700px;
+    padding-top: 100px;
+
+}
+
+p {
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+.centrato-destra {
+    width: 520px;
+    height: 200px;
+    text-align: left;
+    padding-left: 150px;
+
+}
+
+.nonno-2 {
+    height: 700px;
+    background-color: beige;
+    padding-top: 100px;
+    padding-right: 260px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+}
+.nonno-3 {
+    height: 700px;
+    background-color: white;
+    padding-top: 100px;
+    
+}
+.spaziatura{
+    line-height:30px;
+}
+.nonno-4{
+    height: 900px;
+    background-color: beige;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.spaziatura-2{
+    padding: 0px 420px;
+    padding-top: 30px;
+
 }
