@@ -330,3 +330,11 @@ footer {
 .underline:hover{
     text-decoration: underline;
 }
+li:hover{
+
+    text-decoration: underline;
+}
+.no-underline:hover{
+
+    text-decoration: none;
+}
