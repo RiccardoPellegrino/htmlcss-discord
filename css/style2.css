@@ -4,9 +4,17 @@
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
 }
-body{
+
+.bg {
+    position: absolute;
     background-image: url(../img/sfondo.svg);
-    /* width: auto;
-    height: 1200px; */
-    background-image: ;
+    width: 1920px;
+    height: 1200px;
+}
+
+.form {
+    margin: 200px auto;
+    width: 800px;
+    height: 800px;
+    background-color: black;
 }
